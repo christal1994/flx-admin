@@ -1,0 +1,25 @@
+{
+  "apps": [
+    {
+      "name": "tyc-anti-admin",
+      "script": "dispatch.js",
+      "watch": false,
+      "ignore_watch": [
+        ".idea",
+        ".git",
+        "node_modules",
+        "test",
+        "run"
+      ],
+      "next_gen_js": true,
+      "env": {
+      },
+      "env_prod": {
+        "EGG_SERVER_ENV": "prod"
+      }
+    }
+  ],
+  "deploy": {
+
+  }
+}

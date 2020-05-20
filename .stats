@@ -1,0 +1,299 @@
+Hash: bdc6edaf74f71d6480bd
+Version: webpack 4.43.0
+Time: 24359ms
+Built at: 05/19/2020 7:49:27 PM
+                        Asset        Size  Chunks                                Chunk Names
+                    login.css  1000 bytes       1  [emitted]                     login
+login.js?bdc6edaf74f71d6480bd    17.5 KiB       1  [emitted] [immutable]         login
+                     main.css    20.8 KiB       2  [emitted]                     main
+ main.js?bdc6edaf74f71d6480bd     144 KiB       2  [emitted] [immutable]         main
+                 manifest.css     330 KiB       0  [emitted]              [big]  manifest
+                  manifest.js    2.18 MiB       0  [emitted]              [big]  manifest
+                 nprogress.js    11.3 KiB          [emitted]                     
+Entrypoint login [big] = manifest.css manifest.js login.css login.js?bdc6edaf74f71d6480bd
+Entrypoint main [big] = manifest.css manifest.js main.css main.js?bdc6edaf74f71d6480bd
+   [0] ./node_modules/prop-types/index.js 710 bytes {0} [built]
+   [1] ./node_modules/react/index.js 190 bytes {0} [built]
+  [11] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+  [30] ./node_modules/react-redux/es/index.js + 18 modules 36.6 KiB {0} [built]
+       | ./node_modules/react-redux/es/index.js 229 bytes [built]
+       | ./node_modules/react-redux/es/components/Provider.js 2.34 KiB [built]
+       | ./node_modules/react-redux/es/components/connectAdvanced.js 13.5 KiB [built]
+       | ./node_modules/react-redux/es/connect/connect.js 4.83 KiB [built]
+       | ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js 204 bytes [built]
+       | ./node_modules/react-redux/es/utils/PropTypes.js 428 bytes [built]
+       | ./node_modules/react-redux/es/utils/warning.js 640 bytes [built]
+       | ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js 192 bytes [built]
+       | ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js 350 bytes [built]
+       | ./node_modules/react-redux/es/utils/Subscription.js 2.36 KiB [built]
+       | ./node_modules/react-redux/es/utils/shallowEqual.js 676 bytes [built]
+       | ./node_modules/react-redux/es/connect/mapDispatchToProps.js 915 bytes [built]
+       | ./node_modules/react-redux/es/connect/mapStateToProps.js 504 bytes [built]
+       | ./node_modules/react-redux/es/connect/mergeProps.js 1.37 KiB [built]
+       | ./node_modules/react-redux/es/connect/selectorFactory.js 3.85 KiB [built]
+       |     + 4 hidden modules
+  [45] ./node_modules/classnames/bind.js 1.15 KiB {0} [built]
+  [85] ./client/store/index.js 540 bytes {1} {2} [built]
+ [157] ./client/layout/index.jsx 4.99 KiB {1} {2} [built]
+ [245] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+ [625] ./node_modules/react-router/es/index.js 723 bytes [built]
+ [626] multi ./client/pages/login/index.jsx 28 bytes {1} [built]
+[1000] ./client/pages/login/index.module.less 39 bytes {1} [built]
+[1001] multi ./client/pages/dashboard/index.jsx 28 bytes {2} [built]
+[1247] ./client/pages/dashboard/index.less 39 bytes {2} [built]
+[1248] ./client/pages/dashboard/index.jsx + 35 modules 79.7 KiB {2} [built]
+       | ./client/pages/dashboard/index.jsx 5.32 KiB [built]
+       | ./client/pages/dashboard/actions/index.js 718 bytes [built]
+       | ./client/pages/dashboard/reducers/index.js 202 bytes [built]
+       | ./client/pages/dashboard/saga/index.js 2.36 KiB [built]
+       | ./client/pages/dashboard/routes.jsx 979 bytes [built]
+       | ./client/pages/dashboard/layout/index.jsx 4.06 KiB [built]
+       | ./client/pages/dashboard/reducers/common.js 1.55 KiB [built]
+       | ./client/pages/dashboard/reducers/dashboard.js 1.94 KiB [built]
+       | ./client/pages/dashboard/reducers/user.js 3.4 KiB [built]
+       | ./client/pages/dashboard/routes/dashboard/index.jsx 7.71 KiB [built]
+       | ./client/pages/dashboard/routes/user/index.jsx 4.28 KiB [built]
+       | ./client/pages/dashboard/routes/post/index.jsx 352 bytes [built]
+       | ./client/pages/dashboard/routes/echarts/index.jsx 352 bytes [built]
+       | ./client/pages/dashboard/routes/highcharts/index.jsx 358 bytes [built]
+       | ./client/pages/dashboard/routes/recharts/index.jsx 354 bytes [built]
+       |     + 21 hidden modules
+[1253] ./client/pages/login/index.jsx + 4 modules 11 KiB {1} [built]
+       | ./client/pages/login/index.jsx 3.51 KiB [built]
+       | ./client/pages/login/reducers/index.js 1.93 KiB [built]
+       | ./client/pages/login/saga/index.js 1.71 KiB [built]
+       | ./client/pages/login/container/index.jsx 3.35 KiB [built]
+       | ./client/pages/login/actions/index.js 361 bytes [built]
+    + 1337 hidden modules
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  manifest.css (330 KiB)
+  manifest.js (2.18 MiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  login (2.52 MiB)
+      manifest.css
+      manifest.js
+      login.css
+      login.js?bdc6edaf74f71d6480bd
+  main (2.66 MiB)
+      manifest.css
+      manifest.js
+      main.css
+      main.js?bdc6edaf74f71d6480bd
+
+
+WARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!client/pages/dashboard/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./client/pages/dashboard/index.less 533 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/breadcrumb/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/breadcrumb/style/index.less 858 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/button/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/button/style/index.less 30.7 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/card/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/card/style/index.less 5.5 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/cascader/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/cascader/style/index.less 5.52 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/checkbox/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/checkbox/style/index.less 4.79 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/date-picker/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/date-picker/style/index.less 38.8 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/dropdown/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/dropdown/style/index.less 8.04 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/empty/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/empty/style/index.less 627 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/form/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/form/style/index.less 17.1 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/grid/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/grid/style/index.less 49.1 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/icon/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/icon/style/index.less 155 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/input/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/input/style/index.less 10.6 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/menu/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/menu/style/index.less 26.6 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/modal/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/modal/style/index.less 3.74 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/pagination/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/pagination/style/index.less 9.38 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/popover/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/popover/style/index.less 5.44 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/radio/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/radio/style/index.less 6.52 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/select/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/select/style/index.less 14.1 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/spin/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/spin/style/index.less 4.04 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/style/index.less 35.8 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/switch/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/switch/style/index.less 3.71 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/table/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/table/style/index.less 22.2 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/tabs/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/tabs/style/index.less 16.1 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/tag/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/tag/style/index.less 4.14 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/time-picker/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/time-picker/style/index.less 7.28 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--7-3!node_modules/antd/lib/tooltip/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--7-3!./node_modules/antd/lib/tooltip/style/index.less 2.93 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/components/filter-item/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/components/filter-item/index.module.less 563 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/components/loader/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/components/loader/index.module.less 1.84 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/components/page/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/components/page/index.module.less 632 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/layout/bread.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/layout/bread.module.less 478 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/layout/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/layout/index.module.less 1.4 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/layout/nav.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/layout/nav.module.less 1.93 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/layout/sider.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/layout/sider.module.less 3.53 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/browser/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/browser/index.module.less 329 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/comments/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/comments/index.module.less 1.17 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/completed/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/completed/index.module.less 1.04 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/cpu/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/cpu/index.module.less 856 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/number-card/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/number-card/index.module.less 1.04 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/quote/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/quote/index.module.less 1.26 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/recent-sales/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/recent-sales/index.module.less 470 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/sales/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/sales/index.module.less 1.04 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/user/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/user/index.module.less 2.1 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/components/weather/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/components/weather/index.module.less 1.3 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/dashboard/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/dashboard/index.module.less 961 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/echarts/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/echarts/index.module.less 932 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/highcharts/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/highcharts/index.module.less 932 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/post/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/post/index.module.less 932 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/recharts/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/recharts/index.module.less 932 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/dashboard/routes/user/list/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/dashboard/routes/user/list/index.module.less 2.55 KiB {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/login/container/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/login/container/index.module.less 929 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/index.js??ref--8-1!node_modules/postcss-loader/lib/index.js??postcss!node_modules/less-loader/dist/cjs.js??ref--8-3!client/pages/login/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader??ref--8-1!./node_modules/postcss-loader/lib??postcss!./node_modules/less-loader/dist/cjs.js??ref--8-3!./client/pages/login/index.module.less 498 bytes {0} [built]
+    [1] ./node_modules/css-loader/lib/css-base.js 2.21 KiB {0} [built]
